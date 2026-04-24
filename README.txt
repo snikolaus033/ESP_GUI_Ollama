@@ -4,6 +4,12 @@ Opis:
 Aplikacija prima hrvatski opis zadatka, šalje ga lokalnoj Ollami uz strogi prompt da vrati samo valjan MicroPython kod za ESP32, prikaže kod u GUI-ju i spremi ga u .py datoteku.
 
 Preduvjeti:
+Pokretanje ollama LLM-a:
+1. preuzmi sa https://ollama.com/download 
+2. pokreni skinuti OllamaSetup.exe
+3. test u cmdu: ollama --version
+4. ollama pull qwen2.5-coder:7b
+5. 
 1. Python 3.10+
 2. Lokalno instalirana Ollama
 3. Povučeni model, npr.:
