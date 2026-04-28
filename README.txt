@@ -11,6 +11,8 @@ Pokretanje ollama LLM-a:
 4. ollama pull qwen2.5-coder:7b
 5. ollama run qwen2.5-coder:7b
 
+
+
 1. Python 3.10+
 2. Lokalno instalirana Ollama
 3. Povučeni model, npr.:
@@ -34,3 +36,4 @@ Napomene:
 - Ako Ollama ne vrati odgovor, može se uključiti fallback generator.
 - Lokalna baza senzora i funkcija nalazi se u app/database.py
 - Strogi prompt za Ollamu nalazi se u app/prompt_builder.py
+- ...
